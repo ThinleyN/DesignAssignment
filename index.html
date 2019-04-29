@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pandora</title>
+    <meta name="description" content="" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="clearfix">
+      <div class="headerintro">
+        <a href="#" title="Menu" onclick="burgerMenu()">
+          <img class="burger-menu" src="img/hamburger.png" alt="burgermenu" />
+        </a>
+        <a href="#" title="Pandora">
+          <h1 class="logo">Pandora</h1>
+        </a>
+        <h2 class="sub-logo">fantastic products & great prices</h2>
+      </div>
+
+      <div class="utilities">
+        <a href="#" title="Cart">
+          <img class="utility-icons" src="img/cart.png" alt="Cart" />
+          <span class="cart-text">0 items ($0.00 in total)</span>
+        </a>
+        <a href="#" title="checkout" class="check-out">Checkout</a>
+        <a href="#" title="Search">
+          <img
+            class="utility-icons search-icon"
+            src="img/search.png"
+            alt="Search"
+          />
+        </a>
+        <a href="#" title="My account" onclick="dropDown()">
+          <img class="utility-icons" src="img/user.png" alt="My account" />
+          <span class="my-account">My Account</span>
+        </a>
+      </div>
+      <div id="myDropdown" class="account-dropdown clearfix">
+        <hr />
+        <form>
+          <span>Log-in:</span>
+          <input type="text" placeholder="E-mail address" />
+          <input type="password" placeholder="Password" />
+          <button>Log-in</button>
+          <button>Continue as guest</button>
+        </form>
+      </div>
+      <nav>
+        <hr />
+        <ul>
+          <li>
+            <a href="#" title="Home" class="navlist"> Home</a>
+          </li>
+          <li>
+            <a href="#" title="Women" class="navlist">
+              Women +
+            </a>
+          </li>
+          <li><a href="#" title="Men" class="navlist"> Men + </a></li>
+          <li>
+            <a href="#" title="Blog" class="navlist">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="#" title="Contact & Info" class="navlist">
+              Contact & info
+            </a>
+          </li>
+          <li>
+            <a href="#" title="Features" class="navlist">
+              Features
+            </a>
+          </li>
+        </ul>
+        <input type="text" placeholder="search here" />
+      </nav>
+    </header>
+
+    <div class="banner">
+      <img class="banner-img" src="img/banner.png" alt="Banner" />
+      <div class="text-over-image">
+        <div class="banner-text">
+          <h1>Lorem ipsum dolo, expedita do</h1>
+        </div>
+        <div class="banner-description">
+          <span>
+            ivamus fermentum dictum rhoncus. Ut molestie vehicula ipsum sed
+            sagittis. Aenean euismo.</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="intro-container clearfix">
+        <img class="welcome-img" src="img/iphone.png" alt="Phone and Tab" />
+        <div class="welcome-text">
+          <span class="text-heading">
+            Welcome to <span class="bold"> Pandora </span>, responsive shopify
+            theme
+          </span>
+          <p class="text-body">
+            <span class="bold">
+              Congratulations on starting your own e-commerce store!
+            </span>
+            <br />
+            GANYMEDE is an elegant & responsive Shopify theme which dynamically
+            adjusts for all screen sizes and devices. Your shop will look great
+            and will be easy to use on desktops, laptops, tablets and mobile
+            smartphones.
+          </p>
+        </div>
+      </div>
+      <div class="featured-items clearfix">
+        <div class="sub-heading">
+          <h2>
+            Featured items
+          </h2>
+          <a href="#" title="view more items"><span>view more items</span></a>
+          <img src="img/eye.png" alt="eye" />
+          <hr />
+        </div>
+
+        <ul>
+          <li>
+            <div class="card">
+              <div class="card-image">
+                <img src="img/model1.png" class="hastag" alt="card-image" />
+                <img src="img/saletag.png" class="saletag" alt="saletag" />
+              </div>
+              <div class="card-specification">
+                <span class="card-name"> Striped colorful dress </span> <br />
+                <span class="card-price"> $29.99 </span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-image">
+                <img src="img/mode2.png" alt="card-image" />
+              </div>
+              <div class="card-specification">
+                <span class="card-name"> Striped colorful dress </span> <br />
+                <span class="card-price"> $29.99 </span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-image">
+                <img src="img/model3.png" alt="card-image" />
+              </div>
+              <div class="card-specification">
+                <span class="card-name"> Striped colorful dress </span> <br />
+                <span class="card-price"> $29.99 </span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-image">
+                <img src="img/model4.png" alt="card-image" />
+              </div>
+              <div class="card-specification">
+                <span class="card-name"> Striped colorful dress </span> <br />
+                <span class="card-price"> $29.99 </span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-image">
+                <img src="img/model5.png" alt="card-image" />
+              </div>
+              <div class="card-specification">
+                <span class="card-name"> Striped colorful dress </span> <br />
+                <span class="card-price"> $29.99 </span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-image">
+                <img src="img/model6.png" alt="card-image" />
+              </div>
+              <div class="card-specification">
+                <span class="card-name"> Striped colorful dress </span> <br />
+                <span class="card-price"> $29.99 </span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-image">
+                <img src="img/model7.png" alt="card-image" />
+              </div>
+              <div class="card-specification">
+                <span class="card-name"> Striped colorful dress </span> <br />
+                <span class="card-price"> $29.99 </span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-image">
+                <img src="img/model8.png" alt="card-image" />
+              </div>
+              <div class="card-specification">
+                <span class="card-name"> Striped colorful dress </span> <br />
+                <span class="card-price"> $29.99 </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="special-offers">
+        <div class="sub-heading">
+          <h2>
+            Special offers
+          </h2>
+          <hr />
+        </div>
+        <ul>
+          <li>
+            <img src="img/sale1.png" alt="sale1" />
+          </li>
+          <li>
+            <img src="img/sale2.png" alt="sale2" />
+          </li>
+          <li>
+            <img src="img/sale3.png" alt="sale3" />
+          </li>
+        </ul>
+      </div>
+      <div class="news">
+        <div class="latest-blog ">
+          <div class="sub-heading">
+            <h2>
+              Latest from news blog
+            </h2>
+            <hr />
+          </div>
+          <ul>
+            <li>
+              <h3 class="text-heading">
+                Praesaent feugiat felis congue nulla dapibus <br />
+              </h3>
+              <div class="blog-info">
+                <a href="#" title="time">
+                  <img src="img/clock.png" class="clock-icon" alt="clock" />
+                </a>
+                <span class="date"> May 23, 2012 </span>
+                <span class="date"> &#8942;</span>
+                <a href="#" title="comment">
+                  <img
+                    src="img/comment.png"
+                    class="comment-icon"
+                    alt="comment"
+                  />
+                </a>
+                <span class="date"> 6 </span>
+              </div>
+              <p class="blog-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                rutrum risus vitae aliquet libero volutpat. Integer viverra quam
+                tempus dolor condimentum ut euismod leo feugiat.
+                <a href="#" title="Read More"
+                  ><span class="read-more">Read More +</span>
+                </a>
+              </p>
+              <hr />
+            </li>
+            <li>
+              <h3 class="text-heading">
+                Aliquam feugiat imperdiet orcinon mattis <br />
+              </h3>
+              <div class="blog-info">
+                <a href="#" title="time">
+                  <img src="img/clock.png" class="clock-icon" alt="clock" />
+                </a>
+                <span class="date"> May 15, 2012 </span>
+                <span class="date"> &#8942;</span>
+                <a href="#" title="comment">
+                  <img
+                    src="img/comment.png"
+                    class="comment-icon"
+                    alt="comment"
+                  />
+                </a>
+                <span class="date"> 6 </span>
+              </div>
+              <p class="blog-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                rutrum risus vitae aliquet libero volutpat. Integer viverra quam
+                tempus dolor condimentum ut euismod leo feugiat.
+                <a href="#" title="Read More"
+                  ><span class="read-more">Read More +</span>
+                </a>
+              </p>
+              <hr />
+            </li>
+            <li>
+              <h3 class="text-heading">
+                Consectetur adipiscing etiamts adispiscing <br />
+              </h3>
+              <div class="blog-info">
+                <a href="#" title="time"
+                  ><img src="img/clock.png" class="clock-icon" alt="clock" />
+                </a>
+                <span class="date"> May 15, 2012 </span>
+                <span class="date"> &#8942;</span>
+                <a href="#" title="comment">
+                  <img
+                    src="img/comment.png"
+                    class="comment-icon"
+                    alt="comment"
+                  />
+                </a>
+                <span class="date"> 6 </span>
+              </div>
+              <p class="blog-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                rutrum risus vitae aliquet libero volutpat. Integer viverra quam
+                tempus dolor condimentum ut euismod leo feugiat.
+                <a href="#" title="Read More"
+                  ><span class="read-more">Read More +</span>
+                </a>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="best-sellers">
+          <div class="sub-heading">
+            <h2>
+              Best Sellers
+            </h2>
+            <hr />
+          </div>
+          <ul>
+            <li>
+              <div class="card row">
+                <div class="card-image">
+                  <img src="img/model1.png" alt="card-image" />
+                </div>
+                <div class="card-specification">
+                  <span class="card-price"> $29.99 </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card row">
+                <div class="card-image">
+                  <img src="img/model3.png" alt="card-image" />
+                </div>
+                <div class="card-specification">
+                  <span class="card-price"> $29.99 </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card row">
+                <div class="card-image">
+                  <img src="img/model5.png" alt="card-image" />
+                </div>
+                <div class="card-specification">
+                  <span class="card-price"> $29.99 </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card row">
+                <div class="card-image">
+                  <img src="img/model6.png" alt="card-image" />
+                </div>
+                <div class="card-specification">
+                  <span class="card-price"> $29.99 </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="about">
+          <div class="sub-heading">
+            <h2>
+              About & Contacts
+            </h2>
+            <hr />
+          </div>
+          <div class="blog-content">
+            <p>
+              Mecenas quis porta in, condimentum eget arcu. Fringilla aliquam
+              ultricies pellente sque vel turpis nec leo tincidunt sollicitudin
+              ac non risus. Ves tibu lum ultrices feugiat velit, quis tincidunt
+              velit volutpat nec. Vivamus pharetra fringilla augue, elementum
+              ante ultrices tincidunt. Aenean consequat tincidunt.
+            </p>
+            <p>
+              Quisque scelerisque augue eu turpis condimentum iaculis. Cras
+              adipiscing lobortis convallis. Nam eu augue lorem.
+            </p>
+            <a href="#" title="Call">
+              <img src="img/call-icon.png" alt="call-icon" />
+            </a>
+            <span class="phone-number"> 7-685-531-2605 </span> <br />
+            <a href="#" title="Mail">
+              <img src="img/mail-icon.png" alt="mail-icon" />
+            </a>
+            <span class="mail-id">
+              <a href="#" title="Send us a mail" class="mail">
+                info@planetshine.net
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <!-- <img class="gradient" src="img/footer-shadow.png" alt="shadow"> -->
+      <div class="footer-container">
+        <div class="navigation">
+          <div class="sub-heading">
+            <h2>
+              Navigation
+            </h2>
+            <hr />
+          </div>
+          <ul>
+            <li class="custom-bullet">
+              <a href="#" title="Homepage">
+                Homepage
+              </a>
+            </li>
+            <li class="custom-bullet">
+              <a href="#" title="Women">
+                Women
+              </a>
+            </li>
+            <li class="custom-bullet">
+              <a href="#" title="Featured items">
+                Featured items
+              </a>
+            </li>
+            <li class="custom-bullet">
+              <a href="#" title="News blog">
+                News blog
+              </a>
+            </li>
+            <li class="custom-bullet">
+              <a
+                href="#"
+                title="
+                Feature"
+              >
+                Feature
+              </a>
+            </li>
+            <li class="custom-bullet">
+              <a href="#" title="Contact & Info">
+                Contact & Info
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="latest-tweets">
+          <div class="sub-heading">
+            <h2>
+              Latest tweets
+            </h2>
+            <hr />
+          </div>
+          <ul>
+            <li class="tweet-bullet">
+              <a href="#" title="link"><span class="pink"> @crasnon </span></a>
+              sem in felis consequat curss vitae cerat. Ut purus ipsum, laoreet
+              at iaculis non
+              <a href="#" title="goto"
+                ><span class="pink">http://t.co/yn0nTSlA </span></a
+              >
+            </li>
+            <li class="tweet-bullet">
+              Quisque fringilla, enim volutpat commodo eros faucibus massa,
+              desed
+              <a href="#" title="hashtag"
+                ><span class="pink">#ganymede </span></a
+              >
+              pellentesque
+            </li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <div class="sub-heading">
+            <h2>
+              Newsletter
+            </h2>
+            <hr />
+          </div>
+          To subscribe to our newsletter, type in your e-mail address below and
+          press “Enter”. <br />
+          <span class="bold">We don’t send spam. Ever! </span>
+          <input placeholder="search here" />
+        </div>
+        <div class="about-us">
+          <div class="sub-heading">
+            <h2>
+              About us
+            </h2>
+            <hr />
+          </div>
+          <p>
+            Mecenas neque est, feugiatquis porta in, condimentum eget arcu.
+            Fringilla aliquam ultricies.
+          </p>
+          <div class="social-icons">
+            <ul class="socials">
+              <li>
+                <a href="#" title="youtube">
+                  <img src="img/youtube.png" alt="youtube" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="facebook">
+                  <img src="img/facebook.png" alt="facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="twitter">
+                  <img src="img/twittericon.png" alt="twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="social">
+                  <img src="img/bluepinkdots.png" alt="social" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="blogspot">
+                  <img src="img/blogspot.png" alt="blogspot" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="pinterest">
+                  <img src="img/pinterest.png" alt="pinterest" />
+                </a>
+              </li>
+            </ul>
+            <ul class="credit-cards">
+              <li>
+                <a href="#" title="visa">
+                  <img src="img/visa.png" alt="visa" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="master">
+                  <img src="img/master.png" alt="master" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="paypal">
+                  <img src="img/paypal.png" alt="paypal" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="discover">
+                  <img src="img/discover.png" alt="discover" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="americanexpress">
+                  <img src="img/americanexpress.png" alt="americanexpress" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="google">
+                  <img src="img/google.png" alt="google" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="icons">
+        <ul class="socials">
+          <li>
+            <a href="#" title="youtube">
+              <img src="img/youtube.png" alt="youtube" />
+            </a>
+          </li>
+          <li>
+            <a href="#" title="facebook">
+              <img src="img/facebook.png" alt="facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="#" title="twitter">
+              <img src="img/twittericon.png" alt="twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="#" title="social">
+              <img src="img/bluepinkdots.png" alt="social" />
+            </a>
+          </li>
+          <li>
+            <a href="#" title="blogspot">
+              <img src="img/blogspot.png" alt="blogspot" />
+            </a>
+          </li>
+          <li>
+            <a href="#" title="pinterest">
+              <img src="img/pinterest.png" alt="pinterest" />
+            </a>
+          </li>
+        </ul>
+        <ul class="credit-cards">
+          <li>
+            <a href="#" title="visa"> <img src="img/visa.png" alt="visa" /> </a>
+          </li>
+          <li>
+            <a href="#" title="master">
+              <img src="img/master.png" alt="master" />
+            </a>
+          </li>
+          <li>
+            <a href="#" title="paypal">
+              <img src="img/paypal.png" alt="paypal" />
+            </a>
+          </li>
+          <li>
+            <a href="#" title="discover">
+              <img src="img/discover.png" alt="discover" />
+            </a>
+          </li>
+          <li>
+            <a href="#" title="americanexpress">
+              <img src="img/americanexpress.png" alt="americanexpress" />
+            </a>
+          </li>
+          <li>
+            <a href="#" title="google">
+              <img src="img/google.png" alt="google" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <div class="copyrights">
+        <div class="copyright-text">
+          © 2012 Theme "Pandora" by
+          <img
+            src="img/planetshine.png"
+            class="planetshine"
+            alt="planetshine"
+          />
+        </div>
+
+        <div class="copyright-by">
+          Ecommerce software by
+          <img src="img/shopify.png" class="shopify" alt="shopify" />
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

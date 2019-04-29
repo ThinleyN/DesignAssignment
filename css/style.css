@@ -1,0 +1,1000 @@
+body {
+  background-image: url('../img/background.png');
+  background-repeat: repeat;
+  font-family: 'Source Sans Pro';
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #9c9c9c;
+}
+
+/* to draw a sale tag,  It not used tho*/
+.trapezoid {
+  border-bottom: 67px solid #4ea600;
+  border-left: 49px solid transparent;
+  border-right: 49px solid transparent;
+  height: 0;
+  width: 100px;
+  font-family: 'Source Sans Pro';
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  transform: rotate(-20deg);
+}
+
+.clearfix {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+hr {
+  border-top: dotted 1px #ffffff;
+  border-bottom: dotted 1px #c3c3c3;
+  border-left: none;
+  border-right: none;
+}
+
+.footer hr {
+  border-right: none;
+  border-left: none;
+  border-top: dotted 1px #515151;
+  border-bottom: dotted 1px #212121;
+}
+
+.logo {
+  font-family: 'Montserrat Subrayada';
+  color: #cc003e;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sub-logo {
+  color: #cc003e;
+  font-size: 10px;
+}
+
+.headerintro {
+  float: left;
+}
+
+.burger-menu {
+  width: 26px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.burgertoggle {
+  display: table;
+}
+
+.utility-icons {
+  float: right;
+  margin-right: 20px;
+  width: 25px;
+}
+
+.cart-text {
+  display: none;
+}
+
+.account-dropdown {
+  display: none;
+}
+
+.check-out {
+  display: none;
+}
+
+.my-account {
+  display: none;
+}
+
+.logo {
+  margin: auto;
+  display: inline-block;
+}
+
+.utilities {
+  float: right;
+}
+
+nav {
+  width: 360px;
+  content: '';
+  clear: both;
+  display: none;
+}
+
+nav ul {
+  background-color: #ededed;
+}
+
+nav ul li::before {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 97%;
+  margin: 10px;
+  background: #bfbfbf;
+}
+
+nav ul li:last-child::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 97%;
+  margin: 10px;
+  background: #bfbfbf;
+}
+
+nav input {
+  display: none;
+}
+
+nav hr {
+  display: none;
+}
+
+.navlist {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.text-over-image {
+  position: absolute;
+  bottom: 20px;
+  width: 70%;
+  left: 20px;
+  color: white;
+}
+
+.banner-text {
+  background-color: #cb154f;
+  padding: 10px;
+  margin-bottom: 2px;
+  width: 100%;
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.banner-description {
+  background-color: #cb154f;
+  padding: 7px;
+  width: 100%;
+  font-family: 'Arial Regular';
+  font-size: 12px;
+}
+
+.welcome-img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.welcome-text {
+  text-align: center;
+}
+
+.text-heading {
+  color: #cb154f;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.text-body {
+  font-family: 'Arial Regular';
+  font-size: 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.featured-items {
+  width: 100%;
+  position: relative;
+  margin-bottom: 43px;
+}
+
+.sub-heading {
+  margin-bottom: 35px;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.sub-heading h2 {
+  display: inline;
+}
+
+.sub-heading img {
+  position: absolute;
+  top: 11px;
+  right: 105px;
+}
+
+.sub-heading span {
+  font-size: 15px;
+}
+
+.sub-heading a {
+  float: right;
+}
+
+.card {
+  background-color: white;
+  padding: 8px;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.saletag {
+  display: none;
+}
+
+.card-specification {
+  text-align: center;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+.card-name {
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.card-price {
+  color: #cb154f;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.special-offers img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.sale-head {
+  position: absolute;
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+  font-size: 110px;
+}
+
+.special-offers {
+  margin-bottom: 43px;
+}
+
+.row {
+  /* width: 43%; */
+}
+
+.best-sellers {
+  margin-bottom: 43px;
+}
+
+.best-sellers ul li {
+  margin: auto;
+  width: 100%;
+  float: left;
+}
+
+.best-sellers ul li:nth-child(2n + 2) {
+  margin-right: 0;
+}
+
+.best-sellers ul {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.row img {
+  width: 100%;
+}
+
+.blog-info {
+  font-family: 'Arial Regular';
+  font-size: 11px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.date {
+  margin-right: 15px;
+  color: #9c9c9c;
+}
+
+.clock-icon {
+  margin-right: 8px;
+}
+
+.comment-icon {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.blog-content {
+  font-family: 'Arial Regular';
+  font-size: 12px;
+  margin-bottom: 25px;
+  line-height: 1.667;
+}
+
+.read-more {
+  font-size: 14px;
+  color: #cc003e;
+  font-weight: bold;
+}
+
+.blog-content img {
+  width: 25px;
+}
+
+.latest-blog {
+  margin-bottom: 43px;
+}
+
+.latest-blog ul li {
+  margin-bottom: 25px;
+}
+
+p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.phone-number {
+  font-size: 30px;
+  font-family: 'Arial Regular';
+  margin-left: 10px;
+}
+
+.mail-id {
+  font-family: 'Arial Regular';
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.mail {
+  color: black;
+}
+
+.navigation {
+  margin-right: 35px;
+  width: 33%;
+  float: left;
+}
+
+.gradient {
+  width: 100%;
+}
+
+.footer hr {
+  color: #515151;
+}
+
+.custom-bullet::before {
+  color: #ff2d6d;
+  content: '\25CF';
+  padding-right: 1.1225em;
+}
+
+.latest-tweets {
+  float: right;
+  width: 55%;
+}
+
+.tweet-bullet {
+  background-image: url('../img/twitter.png');
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+  padding-left: 25px;
+}
+
+.pink {
+  color: #cb154f;
+}
+
+.newsletter {
+  width: 55%;
+  float: right;
+}
+
+.newsletter input {
+  width: 85%;
+  background-image: url('../img/mail-input.png');
+  background-repeat: no-repeat;
+  background-position: 10px 7px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  color: #919191;
+}
+
+.about-us {
+  float: left;
+  width: 33%;
+  margin-right: 35px;
+}
+
+.news {
+  margin-bottom: 43px;
+}
+
+.icons a {
+  display: inline-block;
+  padding: 3px;
+}
+
+.icons img {
+  width: 30px;
+}
+
+.social-icons {
+  display: none;
+}
+
+.socials {
+  display: block;
+  list-style: none;
+  margin: auto;
+  width: 66%;
+}
+
+.socials li {
+  display: inline;
+}
+
+.social a {
+  display: inline-block;
+}
+
+.credit-cards li {
+  display: inline;
+  margin-right: 4px;
+}
+
+.credit-cards {
+  display: block;
+  list-style: none;
+  margin: auto;
+  width: 70%;
+}
+
+.copyrights {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  color: #5f5f5f;
+  margin-left: 22%;
+  font-size: 11px;
+  font-weight: bold;
+  position: relative;
+}
+
+.copyright-text {
+  margin-bottom: 5px;
+}
+
+.copyrights img {
+  margin-top: 5px;
+}
+
+.planetshine {
+  position: absolute;
+  bottom: 25px;
+  left: 136px;
+}
+
+.shopify {
+  position: absolute;
+  bottom: 3px;
+  left: 120px;
+}
+
+@media (min-width: 480px) {
+  .burger-menu {
+    width: 36px;
+    margin-left: 40px;
+    margin-right: 35px;
+  }
+
+  nav {
+    width: 768px;
+  }
+
+  .logo {
+    font-size: 35px;
+  }
+
+  .utility-icons {
+    width: 30px;
+    margin-right: 40px;
+  }
+
+  .account-dropdown {
+    display: none;
+  }
+
+  .text-over-image {
+    position: absolute;
+    bottom: 35px;
+    width: 70%;
+    left: 40px;
+    color: white;
+  }
+
+  .banner-text {
+    font-size: 30px;
+  }
+
+  .banner-description {
+    font-size: 14px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .card {
+    float: left;
+    margin-left: 81px;
+  }
+
+  .intro-container {
+    text-align: center;
+  }
+
+  .welcome-img {
+    width: 70%;
+  }
+
+  .special-offers ul {
+    text-align: center;
+  }
+
+  .special-offers ul li {
+    width: 90%;
+    margin: auto;
+  }
+
+  .special-offers img {
+    width: 65%;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+    width: fit-content;
+  }
+
+  .latest-tweets {
+    margin-bottom: 55px;
+    float: right;
+  }
+
+  .best-sellers {
+    content: '';
+    clear: both;
+    display: table;
+  }
+
+  .best-sellers ul li {
+    margin-left: 108px;
+    width: fit-content;
+    margin-right: 20px;
+    float: left;
+  }
+
+  .best-sellers ul li:nth-child(2n + 2) {
+    margin-left: 0;
+    margin-right: 108px;
+  }
+
+  .social-icons {
+    display: none;
+  }
+
+  .socials {
+    text-align: center;
+  }
+
+  .credit-cards {
+    text-align: center;
+  }
+
+  .copyrights {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .copyright-text {
+    float: left;
+  }
+
+  .copyright-by::before {
+    content: '\2807';
+    font-size: 12px;
+  }
+
+  .copyright-by {
+    float: left;
+    margin-left: 91px;
+  }
+
+  .planetshine {
+    bottom: 17px;
+    left: 139px;
+  }
+
+  .shopify {
+    bottom: 20px;
+    left: 351px;
+  }
+}
+
+@media (min-width: 769px) {
+  header {
+    margin-bottom: 0;
+  }
+
+  header a {
+    float: left;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .logo {
+    float: left;
+    font-size: 25px;
+  }
+
+  .sub-logo {
+    display: inline;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  .cart-text {
+    display: block;
+    float: left;
+    font-size: 12px;
+  }
+
+  .cart-text::after {
+    content: '\2807';
+    font-size: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .check-out {
+    display: block;
+    float: left;
+    font-size: 12px;
+  }
+
+  .check-out::after {
+    content: '\2807';
+    font-size: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .my-account {
+    display: block;
+    float: left;
+    font-size: 12px;
+  }
+
+  .account-dropdown {
+    display: none;
+    font-family: 'Arial Regular';
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 45px;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .account-dropdown input {
+    color: #8a8a8a;
+    font-size: 12px;
+    border: 1px solid #d8d8d8;
+    padding: 8px 0 8px 10px;
+    outline: none;
+    margin-left: 15px;
+  }
+
+  .account-dropdown hr {
+    margin-bottom: 15px;
+  }
+
+  .account-dropdown button {
+    background-color: #d01850;
+    border: none;
+    padding: 8px 18px;
+    color: white;
+    outline: none;
+    margin-left: 15px;
+  }
+
+  .account-dropdown form {
+    margin-bottom: 6px;
+  }
+
+  .utilities {
+    float: right;
+  }
+
+  .utility-icons {
+    float: left;
+    width: 13px;
+    margin: 0;
+    margin-right: 5px;
+  }
+
+  .search-icon {
+    display: none;
+  }
+
+  nav {
+    display: block;
+    width: 980px;
+    margin: auto;
+    content: '';
+    clear: both;
+    display: table;
+  }
+
+  nav a {
+    float: none;
+  }
+
+  nav hr {
+    display: block;
+  }
+
+  nav ul {
+    padding: 9px 35px 20px 0;
+    float: left;
+    background: none;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li::before {
+    content: none;
+    display: block;
+    height: 0;
+    width: 97%;
+    margin: 0;
+    background: none;
+  }
+
+  nav ul li:last-child::after {
+    content: none;
+    display: block;
+    height: 0;
+    width: 97%;
+    margin: 0;
+    background: none;
+  }
+
+  .navlist {
+    font-family: 'Source Sans Pro';
+    font-size: 21px;
+    font-weight: lighter;
+    padding: 7px 35px 17px 0;
+  }
+
+  nav input {
+    display: block;
+    float: right;
+    width: 135px;
+    padding: 5px 5px 5px 33px;
+    margin-top: 7px;
+    background-image: url('../img/searchicon.png');
+    background-repeat: no-repeat;
+    background-position: 7px 6px;
+    outline: none;
+    border: 1px #d8d8d8 solid;
+  }
+
+  .text-over-image {
+    left: 172px;
+    bottom: 143px;
+    width: 43%;
+  }
+
+  .welcome-img {
+    float: left;
+    margin-right: 44px;
+    width: 43%;
+  }
+
+  .welcome-text {
+    float: right;
+    width: 52%;
+    margin-top: 50px;
+  }
+
+  .featured-items ul {
+    list-style: none;
+    content: '';
+    clear: both;
+    display: table;
+  }
+
+  .featured-items ul li {
+    float: left;
+    display: block;
+    margin-right: 33px;
+  }
+
+  .featured-items ul li:nth-child(4n + 4) {
+    margin-right: 0;
+  }
+
+  .card {
+    margin-left: 0;
+    padding: 5px;
+    float: none;
+  }
+
+  .card-image img {
+    transition: transform 1s;
+  }
+
+  .card:hover .card-image img {
+    transform: scale(1.04);
+  }
+
+  .hastag {
+    position: relative;
+  }
+
+  .saletag {
+    position: absolute;
+    left: -6px;
+    top: 70px;
+    display: block;
+  }
+
+  .special-offers ul li {
+    display: inline;
+  }
+
+  .special-offers img {
+    width: 33%;
+    margin-bottom: 0;
+  }
+
+  .latest-blog {
+    float: left;
+    width: 32%;
+    margin-right: 35px;
+  }
+
+  .best-sellers {
+    float: left;
+    width: 30%;
+    clear: none;
+    margin-right: 35px;
+  }
+
+  .best-sellers ul li {
+    margin-left: 0;
+    width: 45%;
+    margin-right: 29px;
+    float: left;
+  }
+
+  .best-sellers ul li:nth-child(2n + 2) {
+    width: 45%;
+    margin-right: 0;
+  }
+
+  .row {
+    margin-left: 0;
+    float: left;
+  }
+
+  .about {
+    float: left;
+    width: 30%;
+  }
+
+  .navigation {
+    width: 21%;
+    float: left;
+  }
+
+  .latest-tweets {
+    width: 26%;
+    float: left;
+    margin-right: 35px;
+  }
+
+  .newsletter {
+    width: 21%;
+    float: left;
+    margin-right: 35px;
+  }
+
+  .about-us {
+    width: 21%;
+    float: left;
+    margin-right: 0;
+  }
+
+  .social-icons {
+    display: block;
+  }
+
+  .socials li {
+    display: inline;
+    margin-right: 8px;
+  }
+
+  .credit-cards li {
+    display: inline;
+    margin-right: 8px;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .icons img {
+    width: 25px;
+  }
+
+  .socials {
+    width: 100%;
+    float: left;
+  }
+
+  .credit-cards {
+    width: 100%;
+  }
+
+  .copyrights {
+    margin-left: auto;
+    width: 64%;
+  }
+}

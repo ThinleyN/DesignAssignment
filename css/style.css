@@ -17,7 +17,7 @@ a:hover {
   color: #9c9c9c;
 }
 
-/* to draw a sale tag,  It not used tho*/
+/* to draw a sale tag,  It not used though*/
 .trapezoid {
   border-bottom: 67px solid #4ea600;
   border-left: 49px solid transparent;
@@ -669,6 +669,12 @@ p {
     float: left;
   }
 
+  .banner {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+  }
+
   .burger-menu {
     display: none;
   }
@@ -836,8 +842,9 @@ p {
   }
 
   .text-over-image {
-    left: 172px;
-    bottom: 143px;
+    position: absolute;
+    top: 50%;
+    left: 8%;
     width: 43%;
   }
 
@@ -994,7 +1001,27 @@ p {
   }
 
   .copyrights {
-    margin-left: auto;
-    width: 64%;
+    margin: auto;
+    width: 342px;
+  }
+
+  .copyright-text {
+    position: relative;
+  }
+
+  .planetshine {
+    position: absolute;
+    bottom: -14%;
+  }
+
+  .copyright-by {
+    position: relative;
+  }
+
+  .shopify {
+    position: absolute;
+    position: absolute;
+    left: 108%;
+    bottom: -3%;
   }
 }
